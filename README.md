@@ -30,7 +30,9 @@ We propose to use transfer learning technique to solve this problem. Our solutio
 2. A layer of neurons will be added in front of this feature vector and the model will be trained in a transfer learning setup by freezing the weights of the other layers.
 3. The training will involve only few samples per keyword.
 
-![](img/methodology.png)
+<p align="center">
+  <img src="img/methodology.png" >
+</p>
 
 ## Impact and Benefits
 * Language Agnosticism: The model can be extended to various languages without the need for extensive retraining.
